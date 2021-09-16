@@ -1,0 +1,66 @@
+/* Master Styles */
+.body {
+    margin: 0px;
+}
+html { 
+    background: url(background.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left-side {
+    display: flex;
+}
+
+/* Nav Styles */
+.nav-wrapper > .left-side > div {
+    margin-right: 10px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px gray;
+}
+
+.nav-link-wrapper a:hover {
+    color: gray;
+}
+
+.brand {
+    color: white;
+}
+
+/* Portfolio Styles */
+
+.subtitle {
+    color: white;
+}
+
+.images {
+    display: flex;
+    max-width: min-content;
+    height: 250px;
+    width: auto;
+}
